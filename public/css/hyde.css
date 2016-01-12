@@ -56,8 +56,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: rgba(255,255,255,.3);
+  background-color: rgba(0,0,0,.9);
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -124,20 +124,22 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  padding-right:  4rem;
+  padding-left:   4rem;
+  background-color: #fff;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    margin-left: 18rem;
+    margin-right: 0rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 18rem;
+    margin-right: 0rem;
   }
 }
 
