@@ -72,7 +72,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 /* About section */
@@ -88,24 +88,29 @@ html {
   margin-bottom: 1rem;
 }
 
-.sidebar-nav-item {
+a.sidebar-nav-item {
   display: inline-block;
+  margin: 0 5px;
   line-height: 3;
+  color: rgba(255,255,255,0.5);
 }
 
 @media (min-width: 48em) {
-  .sidebar-nav-item {
-    display: block;
+  a.sidebar-nav-item {
+    /*display: block;
+    margin: 0;*/
     line-height: 2;
   }
 }
 
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  color: rgba(255,255,255,1);
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
+
+a.sidebar-nav-item.active {
+  color: rgba(255,255,255,1);
 }
 
 /* Sticky sidebar
@@ -141,8 +146,8 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
 
-  padding-top:    3rem;
-  padding-bottom: 3rem;
+  padding-top:    2rem;
+  padding-bottom: 2rem;
   padding-right:  3rem;
   padding-left:   3rem;
     margin-left: 18rem;
@@ -152,10 +157,22 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 70em) {
   .content {
-  padding-top:    5rem;
-  padding-bottom: 5rem;
-  padding-right: 15rem;
-  padding-left:   5rem;
+  padding-top:    2.5rem;
+  padding-bottom: 2rem;
+  padding-right:  6rem;
+  padding-left:   2.5rem;
+    margin-left: 18rem;
+    margin-right: 0rem;
+  }
+}
+
+
+@media (min-width: 80em) {
+  .content {
+  padding-top:    2.5rem;
+  padding-bottom: 2rem;
+  padding-right:  12rem;
+  padding-left:   2.5rem;
     margin-left: 18rem;
     margin-right: 0rem;
   }
