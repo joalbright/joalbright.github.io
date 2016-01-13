@@ -57,7 +57,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.3);
-  background-color: rgba(0,0,0,.9);
+  background-color: rgba(0,0,0,.85);
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -122,22 +122,31 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-  padding-right:  4rem;
-  padding-left:   4rem;
+  padding-top:    2rem;
+  padding-bottom: 2rem;
+  padding-right:  2rem;
+  padding-left:   2rem;
   background-color: #fff;
 }
 
 @media (min-width: 48em) {
   .content {
+
+  padding-top:    3rem;
+  padding-bottom: 3rem;
+  padding-right:  3rem;
+  padding-left:   3rem;
     margin-left: 18rem;
     margin-right: 0rem;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 70em) {
   .content {
+  padding-top:    5rem;
+  padding-bottom: 5rem;
+  padding-right:  15rem;
+  padding-left:   5rem;
     margin-left: 18rem;
     margin-right: 0rem;
   }

@@ -101,9 +101,85 @@ h1 img {
 
 }
 
-.work img { 
+.work, .work2, .work3 {
 
-  max-width: 48%; 
+  text-align: center;
+
+}
+
+.work a, .work2 a, .work3 a, .work4 a {
+
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  display:block; 
+  float: left;
+
+}
+
+.work img, .work2 img, .work3 img, .work4 img {
+
+  width: 100%;
+  margin: 0px;
   display:inline-block; 
 
 }
+
+.work3.square a { width: 33.3%; }
+.work4 a { width: 50%; }
+.work4 a.middle { width: 100%; }
+.work4 a.right { float: right; }
+
+
+@media (min-width: 40em) {
+
+  .work2 a { width: 50%; }
+  .work3 a { width: 33.3%; }
+  .work4 a { width: 25%; }
+  .work4 a.middle { width: 50%; }
+
+}
+
+@media (min-width: 48em) {
+
+  .work2 a { width: 100%; }
+  .work3 a { width: 100%; }
+  .work3.square a { width: 33.3%; }
+  .work4 a { width: 50%; }
+  .work4 a.middle { width: 100%; }
+
+}
+
+@media (min-width: 70em) {
+
+  .work2 a { width: 50%; }
+  .work3 a { width: 33.3%; }
+  .work4 a { width: 25%; }
+  .work4 a.middle { width: 50%; }
+
+}
+
+.clear { clear: both; }
+
+/*@media (min-width: 64em) {
+
+  .work2 img {
+
+    max-width: 45%;
+
+  }
+
+  .work3 img {
+
+    max-width: 30%;
+
+  }
+
+  .work4 img {
+
+    max-width: 22.5%;
+
+  }
+
+}*/
+
