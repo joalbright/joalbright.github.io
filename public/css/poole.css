@@ -263,6 +263,19 @@ tbody tr:nth-child(odd) th {
   color: #fff;
 }
 
+@media (min-width: 30em) {
+
+  .lead { font-size: 1rem; }
+
+}
+
+@media (min-width: 48em) {
+
+  .lead { font-size: 0.8rem; }
+
+}
+
+
 
 /*
  * Messages

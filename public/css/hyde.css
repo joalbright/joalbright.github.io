@@ -87,10 +87,19 @@ html {
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
+  display: inline-block;
+  line-height: 3;
 }
+
+@media (min-width: 48em) {
+  .sidebar-nav-item {
+    display: block;
+    line-height: 2;
+  }
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
