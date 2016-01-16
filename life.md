@@ -39,7 +39,7 @@ title: LIFE
 <div class="work">
 
 <a target="_blank">
-<img src="{{ site.baseurl }}public/content/images/life_2012_1.png" />
+<img src="{{ site.baseurl }}public/content/images/life_2012_0.png" />
 </a>
 
 </div>
@@ -47,7 +47,7 @@ title: LIFE
 <div class="work">
 
 <a target="_blank">
-<img src="{{ site.baseurl }}public/content/images/life_2012_0.png" />
+<img src="{{ site.baseurl }}public/content/images/life_2012_1.png" />
 </a>
 
 </div>
