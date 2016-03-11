@@ -3,6 +3,13 @@ layout: page
 title: LIFE
 ---
 
+<div class="work">
+
+<a target="_blank">
+<img src="{{ site.baseurl }}public/content/images/life_2016_0.png" />
+</a>
+
+</div>
 
 <div class="work">
 
