@@ -1,4 +1,0 @@
----
-layout: json
-title: Reaction
----
