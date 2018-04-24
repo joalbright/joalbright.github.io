@@ -3,8 +3,8 @@
     <div class="sidebar-about">
       <br>
       <h1>
-        <a href="{{ site.baseurl }}">
-          <img src="{{ site.baseurl }}public/images/logo.png" title="{{ site.title }}" width="100" />
+        <a href="/">
+          <img src="/public/images/logo.png" title="{{ site.title }}" width="100" />
         </a>
       </h1>
       <p class="lead">{{ site.tagline }}</p>
@@ -20,7 +20,7 @@
 
       <br>
 
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">WORK</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">WORK</a>
       <a class="sidebar-nav-item{% if page.url == site.blogurl %} active{% endif %}" href="{{ site.blogurl }}">BLOG</a>
 
       {% assign pages_list = site.pages %}
