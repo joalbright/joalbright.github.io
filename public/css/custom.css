@@ -1,6 +1,6 @@
 html { 
 
-  background: #111 url(/public/images/cover.jpg) no-repeat center center fixed; 
+  background: #111; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
