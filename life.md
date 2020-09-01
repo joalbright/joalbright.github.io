@@ -6,6 +6,14 @@ title: LIFE
 <div class="work">
 
 <a target="_blank">
+<img src="/public/content/images/life_2018_0.png" />
+</a>
+
+</div>
+
+<div class="work">
+
+<a target="_blank">
 <img src="/public/content/images/life_2016_0.png" />
 </a>
 
