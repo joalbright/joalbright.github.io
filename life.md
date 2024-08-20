@@ -6,8 +6,28 @@ title: LIFE
 <div class="work">
 
 <a target="_blank">
+<img src="/public/content/images/life_2024_0.png" />
+</a>
+
+</div>
+
+<div class="work">
+
+<a target="_blank">
 <img src="/public/content/images/life_2023_0.png" />
 </a>
+
+</div>
+
+<div class="work">
+
+<a target="_blank">
+<img src="/public/content/images/life_2021_0.png" />
+</a>
+
+<!-- <div>UPS, the UPS brandmark and the color brown
+are registered trademarks of United Parcel
+Servics of America, Inc. All rights reserved.</div> -->
 
 </div>
 
